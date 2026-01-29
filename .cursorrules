@@ -1,0 +1,16 @@
+Follow PEP8 strictly for Python code.
+
+Use descriptive variable names that a human developer would choose.
+
+Add inline comments explaining non-obvious logic in a conversational tone, like "This handles the edge case where user is None to prevent crashes."
+
+Keep changes minimal: only modify what's necessary for the issue.
+
+Refactor only if it improves readability without introducing new features.
+
+Simulate human coding: introduce minor variations in spacing or structure, but keep it clean.
+
+Avoid spaghetti code: use small functions and clear control flow.
+
+For PRs, ensure changes are testable and include updates to docs if relevant.
+
